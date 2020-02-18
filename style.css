@@ -1,0 +1,130 @@
+/* regole generali */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+/* intestazione */
+header{
+  height: 250px;
+  margin-bottom: 10px;
+  /* debug */
+  background-color: yellow;
+  /* fine debug */
+  position: relative;
+}
+
+#titolo{
+  height: 200px;
+  width: 100%;
+  border: 10px solid white;
+}
+
+header nav{
+  height: 50px;
+  /* debug */
+  background-color: grey;
+  /* fine debug */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* parte centrale */
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* colonna destra */
+#colonna-1{
+  width: 20%;
+  float: left;
+  /* dubug */
+  height: 700px;
+  background-color: red;
+  /* fine debug */
+}
+
+.widget-sinistra{
+  margin-bottom: 10px;
+  /* debug */
+  height: 200px;
+  /* fine debug */
+  }
+
+/* colonna centrale */
+#colonna-2{
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+  /* dubug */
+  background-color: orange;
+  height: 2800px;
+  /* fine debug */
+}
+
+/* colonna destra */
+#colonna-3{
+  width: 30%;
+  float: left;
+  /* dubug */
+  background-color: lightblue;
+  height: 300px;
+  /* fine debug */
+}
+
+#search{
+  height: 40%;
+  margin-bottom: 10px;
+}
+
+#tag{
+  height: 60%;
+}
+
+/* piè di pagina */
+footer{
+  /* dubug */
+  background-color: pink;
+  height: 400px;
+  /* fine debug */
+}
+
+#fondo-pagina{
+  border-bottom: solid 1px grey;
+  /* debug */
+  height: 70%;
+  /* fine debug */
+}
+
+#fondo-pagina::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonne-fondo-pagina{
+  width: 20%;
+  float:left;
+  /* debug */
+  border-right: solid 1px black;
+  height: 100%;
+  /* fine debug */
+}
+#colonne-fondo-pagina2{
+  width: 40%;
+  float: left;
+  /* debug */
+  height: 100%;
+  /* fine debug */
+}
