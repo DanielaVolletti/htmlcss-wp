@@ -55,8 +55,18 @@ header{
 header nav{
   height: 50px;
   background-color: rgba(0,0,0,0.5);
+  text-align: center;
 }
 
+ul li{
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+}
+
+ul li a{
+  color: white;
+}
 
 /* parte centrale */
 main::after{
