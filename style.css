@@ -126,6 +126,7 @@ section ul li a{
 .articolo{
   background-color: white;
   padding: 20px;
+  border-bottom: solid 1px grey;
 }
 
 .titoli-articoli{
@@ -144,7 +145,6 @@ i{
   font-size: 15px;
   color: #99CC33;
   line-height: 1.5;
-  /* text-decoration: none; */
 }
 
 .immagine-articolo{
