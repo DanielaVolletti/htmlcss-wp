@@ -17,6 +17,14 @@ ul{
   list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 /* intestazione */
 #container-intestazioni{
   margin-bottom: 10px;
@@ -71,7 +79,6 @@ nav ul li{
 
 nav ul li a{
   color: white;
-  text-decoration: none;
 }
 
 /* parte centrale */
@@ -99,7 +106,6 @@ h6{
 
 section ul li a{
   color: #99CC33;
-  text-decoration: none;
   font-size: 15px;
 }
 
@@ -138,7 +144,7 @@ i{
   font-size: 15px;
   color: #99CC33;
   line-height: 1.5;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .immagine-articolo{
@@ -164,7 +170,6 @@ i{
 
 .link-fondo-art{
   color: #99CC33;
-  text-decoration: none;
 }
 
 /* colonna destra */
@@ -196,6 +201,10 @@ i{
   color: white;
 }
 
+input[type="button"]:hover{
+  background-color: black;
+}
+
 #tag{
   background-color: white;
   padding: 25px;
@@ -223,9 +232,13 @@ i{
 }
 
 /* piè di pagina */
-
+#pie-di-pagina{
+  background-color: white;
+  margin-top: 20px;
+}
 
 #fondo-pagina{
+  padding: 40px;
   border-bottom: solid 1px grey;
 }
 
@@ -238,9 +251,32 @@ i{
 .colonne-fondo-pagina{
   width: 20%;
   float:left;
+  line-height: 2.0;
+  padding-right: 40px;
+}
+
+.colonne-fondo-pagina ul li a{
+  color: grey;
+}
+
+.colonne-fondo-pagina ul{
+  margin-left: 8px;
 }
 
 #colonne-fondo-pagina2{
   width: 40%;
   float: left;
+  line-height: 2.0;
+}
+
+#colonne-fondo-pagina2 p{
+  font-size: 15px;
+  color: #686868;
+}
+
+#copywrite{
+  padding: 60px 40px 15px 40px;
+  color: #686868;
+  line-height: 2.0;
+  font-size: 13px;
 }
