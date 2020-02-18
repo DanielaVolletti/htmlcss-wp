@@ -12,6 +12,10 @@ body{
   background-image: url('img/sfondo.png');
 }
 
+ul{
+  list-style-type: none;
+}
+
 /* intestazione */
 header{
   height: 250px;
@@ -58,14 +62,17 @@ header nav{
   text-align: center;
 }
 
-ul li{
+nav ul li{
   display: inline-block;
   height: 50px;
   line-height: 50px;
+  letter-spacing: 1px;
+  padding-right: 6px;
 }
 
-ul li a{
+nav ul li a{
   color: white;
+  text-decoration: none;
 }
 
 /* parte centrale */
@@ -75,14 +82,33 @@ main::after{
   clear: both;
 }
 
-/* colonna destra */
+/* colonna sinistra */
 #colonna-1{
   width: 20%;
   float: left;
+  line-height: 2.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+section ul{
+  padding-left: 8px;
+}
+
+section ul li a{
+  color: #99CC33;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .widget-sinistra{
   margin-bottom: 10px;
+  background-color: white;
+  padding: 25px;
   }
 
 /* colonna centrale */
@@ -91,10 +117,11 @@ main::after{
   margin-left: 1%;
   margin-right: 1%;
   float: left;
+
 }
 
 .articolo{
-  background-color: white;
+
 }
 
 /* colonna destra */
